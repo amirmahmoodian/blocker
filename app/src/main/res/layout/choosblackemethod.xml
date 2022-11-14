@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="70dip"
+        android:layout_marginTop="44dp"
+        android:text="Choose how Block"
+        android:textSize="40dip"></TextView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="106dp"
+        android:layout_marginTop="171dp"
+        android:layout_marginEnd="105dp"
+        android:width="200dip"
+        android:onClick="FullNumber"
+        android:text="Block a Full Number"></Button>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="254dp"
+        android:layout_marginEnd="106dp"
+        android:width="200dip"
+        android:onClick="StartsWth"
+        android:text="Block The Numbers That Starts With"></Button>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="104dp"
+        android:layout_marginTop="338dp"
+        android:layout_marginEnd="107dp"
+        android:layout_marginBottom="334dp"
+        android:width="200dip"
+        android:onClick="EndsWith"
+        android:text="Block The Numbers That Ends With"></Button>
+
+</RelativeLayout>
+   
+    
